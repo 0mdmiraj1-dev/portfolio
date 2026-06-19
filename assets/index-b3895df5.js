@@ -53704,7 +53704,7 @@ const oU = () => {
     })
 }
   , aK = () => {
-    const n = lg("https://huzaif-ahmed-portfolio.vercel.app/planet/scene.gltf");
+    const n = lg("/planet/scene.gltf");
     return pe("primitive", {
         object: n.scene,
         scale: 2.5,
@@ -53738,7 +53738,7 @@ const oU = () => {
     })
 })
   , cK = () => {
-    const n = lg("https://huzaif-ahmed-portfolio.vercel.app/desktop_pc/scene.gltf");
+    const n = lg("/desktop_pc/scene.gltf");
     return Et("mesh", {
         children: [pe("hemisphereLight", {
             intensity: .15,
